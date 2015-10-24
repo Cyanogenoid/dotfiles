@@ -23,3 +23,7 @@ if ! zgen saved; then
     # save all to init script
     zgen save
 fi
+
+# alias definitions
+alias v=nvim
+alias vv='fasd -f -t -e nvim -B viminfo'
