@@ -1,3 +1,7 @@
+# environment variables
+export EDITOR=/usr/bin/vim
+
+
 # load zgen
 source "${HOME}/.zgen.zsh"
 
