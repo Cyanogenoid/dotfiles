@@ -18,6 +18,7 @@ if ! zgen saved; then
     zgen prezto git
     zgen prezto command-not-found
     zgen prezto syntax-highlighting
+    zgen prezto history-substring-search
     zgen prezto fasd
 
     # save all to init script
