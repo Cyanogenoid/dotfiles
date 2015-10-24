@@ -1,3 +1,5 @@
 [user]
 	email = cyanogenoid@cyanogenoid.com
 	name = Yan Zhang
+[push]
+	default = simple
