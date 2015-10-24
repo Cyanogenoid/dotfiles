@@ -2,3 +2,5 @@
     - '~'
 - link:
     ~/.gitconfig: gitconfig
+    ~/.zgen.zsh: zsh/zgen/zgen.zsh
+    ~/.zshrc: zsh/zshrc
