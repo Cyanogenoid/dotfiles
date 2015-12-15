@@ -1,5 +1,5 @@
 # environment variables
-export EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/nvim
 export TERMINAL=termite
 
 
