@@ -8,3 +8,6 @@
     ~/.config/termite/config:
         create: true
         path: termite.config
+    ~/.config/i3/config:
+        create: true
+        path: i3.config
