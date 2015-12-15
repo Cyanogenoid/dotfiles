@@ -5,3 +5,6 @@
     ~/.xinitrc: xinitrc
     ~/.zgen.zsh: zsh/zgen/zgen.zsh
     ~/.zshrc: zsh/zshrc
+    ~/.config/termite/config:
+        create: true
+        path: termite.config
