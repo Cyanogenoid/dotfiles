@@ -13,11 +13,13 @@ if ! zgen saved; then
     # prezto options
     zgen prezto editor key-bindings 'emacs'
     zgen prezto prompt theme 'pure'
+    zgen prezto tmux:auto-start local 'yes'
 
     # prezto and modules
     zgen prezto
     zgen prezto git
     zgen prezto command-not-found
+    zgen prezto tmux
     zgen prezto syntax-highlighting
     zgen prezto history-substring-search
     zgen prezto fasd
