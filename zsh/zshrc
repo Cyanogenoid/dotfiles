@@ -1,5 +1,6 @@
 # environment variables
 export EDITOR=/usr/bin/vim
+export TERMINAL=termite
 
 
 # load zgen
