@@ -10,3 +10,5 @@ set expandtab
 set smarttab
 
 colorscheme Tomorrow-Night
+
+set number
