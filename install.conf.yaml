@@ -11,3 +11,9 @@
     ~/.config/i3/config:
         create: true
         path: i3.config
+    ~/.config/nvim/init.vim:
+        create: true
+        path: vim/vimrc
+    ~/.config/nvim/autoload/plug.vim:
+        create: true
+        path: vim/vim-plug/plug.vim
