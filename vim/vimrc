@@ -1,6 +1,7 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'bling/vim-airline'
 call plug#end()
 
 set tabstop=4
@@ -12,3 +13,5 @@ set smarttab
 colorscheme Tomorrow-Night
 
 set number
+
+let g:airline_powerline_fonts = 1
