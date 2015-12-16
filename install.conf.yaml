@@ -17,3 +17,6 @@
     ~/.config/nvim/autoload/plug.vim:
         create: true
         path: vim/vim-plug/plug.vim
+    ~/.config/zathura/zathurarc:
+        create: true
+        path: zathura.config
