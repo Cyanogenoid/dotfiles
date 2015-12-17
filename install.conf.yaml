@@ -11,6 +11,7 @@
     ~/.config/i3/config:
         create: true
         path: i3.config
+    ~/.i3status.conf: i3status.config
     ~/.config/nvim/init.vim:
         create: true
         path: vim/vimrc
