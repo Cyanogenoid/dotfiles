@@ -21,3 +21,5 @@
     ~/.config/zathura/zathurarc:
         create: true
         path: zathura.config
+- shell:
+    - [inkscape -f wallpaper.svg -e ~/.wallpaper.png, Creating wallpaper]
