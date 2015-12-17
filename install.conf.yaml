@@ -22,4 +22,4 @@
         create: true
         path: zathura.config
 - shell:
-    - [inkscape -f wallpaper.svg -e ~/.wallpaper.png, Creating wallpaper]
+    - [inkscape -f wallpaper.svg -e ~/.wallpaper.png -w 1920 -h 1080, Creating wallpaper]
