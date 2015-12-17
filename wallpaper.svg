@@ -16,4 +16,12 @@
     fill = "#81a2be"
     fill-rule = "evenodd"
   />
+  <text
+    text-family="Droid Sans Mono"
+    text-anchor="middle"
+    fill="#b4b7b4"
+    transform="matrix(4, 0, 0, 4, 640, 600)"
+  >
+    cynkpad
+  </text>
 </svg>
