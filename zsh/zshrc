@@ -12,7 +12,7 @@ if ! zgen saved; then
     echo "Creating a zgen save"
 
     # prezto options
-    zgen prezto editor key-bindings 'vim'
+    zgen prezto editor key-bindings 'vi'
     zgen prezto prompt theme 'pure'
 
     # prezto and modules
