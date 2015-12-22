@@ -19,9 +19,11 @@ if ! zgen saved; then
     zgen prezto
     zgen prezto git
     zgen prezto command-not-found
-    zgen prezto syntax-highlighting
     zgen prezto history-substring-search
     zgen prezto fasd
+
+    # other modules
+    zgen load zsh-users/zsh-syntax-highlighting
 
     # save all to init script
     zgen save
