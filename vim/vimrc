@@ -1,7 +1,8 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'chriskempson/base16-vim'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'lervag/vimtex', { 'for': 'tex' }
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 call plug#end()
