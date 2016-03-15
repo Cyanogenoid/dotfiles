@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lervag/vimtex', { 'for': 'tex' }
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
+Plug 'racer-rust/vim-racer', { 'for': 'rust' }
 Plug 'vim-pandoc/vim-pandoc' |
 Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
@@ -20,6 +21,10 @@ set background=dark
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 set number
+set hidden
+set omnifunc=syntaxcomplete#Complete
 
 let g:airline_powerline_fonts = 1
 let g:latex_view_general_viewer = 'zathura'
+let g:racer_cmd = "/usr/bin/racer"
+let $RUST_SRC_PATH="/usr/src/rust/src/"
