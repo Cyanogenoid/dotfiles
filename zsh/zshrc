@@ -31,3 +31,4 @@ fi
 # alias definitions
 alias v=nvim
 alias vv='fasd -f -t -e nvim -B viminfo'
+alias ls='ls --color'
