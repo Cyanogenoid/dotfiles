@@ -28,6 +28,9 @@ if ! zgen saved; then
     zgen save
 fi
 
+# functions
+twitch() { livestreamer twitch.tv/"$@" }
+
 # alias definitions
 alias v=nvim
 alias vv='fasd -f -t -e nvim -B viminfo'
