@@ -3,3 +3,5 @@
 	name = Yan Zhang
 [push]
 	default = simple
+[alias]
+    ls = ls-files
