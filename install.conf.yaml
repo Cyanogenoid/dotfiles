@@ -15,7 +15,7 @@
     ~/.config/zathura/zathurarc: zathura.config
 - shell:
     - [inkscape -f wallpaper.svg -e ~/.wallpaper.png -w 1920 -h 1080, Creating wallpaper]
-    - [sed 's/cynkpad/locked/' wallpaper.svg >! wallpaper-locked.svg &&
+    - [sed 's/cynkpad/locked/' wallpaper.svg > wallpaper-locked.svg &&
        inkscape -f wallpaper-locked.svg -e ~/.wallpaper-locked.png -w 1920 -h 1080 &&
        rm -f wallpaper-locked.svg,
        Creating locked wallpaper]
