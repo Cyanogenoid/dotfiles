@@ -30,6 +30,7 @@ fi
 
 # functions
 twitch() { livestreamer twitch.tv/"$@" }
+santander() { pass show banking/santander | python ~/.santander.py "$@" }
 
 # alias definitions
 alias v=nvim
