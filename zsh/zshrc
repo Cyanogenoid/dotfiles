@@ -2,6 +2,7 @@
 export EDITOR=/usr/bin/nvim
 export TERMINAL=termite
 export BROWSER=google-chrome-stable
+export PATH=/home/yan/.cargo/bin:$PATH
 
 
 # load zgen
