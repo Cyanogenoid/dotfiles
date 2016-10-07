@@ -4,6 +4,11 @@ export TERMINAL=termite
 export BROWSER=google-chrome-stable
 export PATH=/home/yan/.cargo/bin:$PATH
 
+# Tensorflow
+export CUDA_HOME=/opt/cuda
+export CUDA_ROOT=$CUDA_HOME
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64:opt/cuda/extras/CUPTI/lib64"
+
 
 # load zgen
 source "${HOME}/.zgen.zsh"
