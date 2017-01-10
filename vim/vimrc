@@ -9,6 +9,7 @@ Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'racer-rust/vim-racer', { 'for': 'rust' }
 Plug 'vim-pandoc/vim-pandoc' |
 Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'ervandew/SuperTab'
 call plug#end()
 
 set tabstop=4
