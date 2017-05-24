@@ -40,6 +40,9 @@ santander() { pass show banking/santander | python ~/.santander.py "$@" }
 
 # alias definitions
 alias v=nvim
+alias vim=nvim
+alias python=python3
+alias py=python3
 alias vv='fasd -f -t -e nvim -B viminfo'
 alias ls='ls --color'
 alias pdf='zathura'
