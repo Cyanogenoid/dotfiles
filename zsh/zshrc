@@ -3,6 +3,7 @@ export EDITOR=/usr/bin/nvim
 export TERMINAL=termite
 export BROWSER=chromium
 export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$HOME/anaconda3/bin:$PATH
 
 # Tensorflow
 export CUDA_HOME=/opt/cuda
