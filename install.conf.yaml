@@ -18,6 +18,10 @@
     ~/.i3status.conf: i3status.config
     ~/.config/nvim/init.vim: vim/vimrc
     ~/.config/nvim/autoload/plug.vim: vim/vim-plug/plug.vim
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmux/plugins/tpm:
+        path: tmux/tpm
+        create: true
     ~/.config/zathura/zathurarc: zathura.config
 - shell:
     - [inkscape -f wallpaper.svg -e ~/.wallpaper.png -w 1920 -h 1080, Creating wallpaper]
